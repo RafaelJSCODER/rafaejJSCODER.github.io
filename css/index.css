@@ -1,0 +1,220 @@
+@media screen and (min-width: 602px){
+	html,body{
+			-webkit-box-shadow: 8px -12px 63px -16px rgba(207,208,209,0.95);
+	-moz-box-shadow: 8px -12px 63px -16px rgba(207,208,209,0.95);
+	box-shadow: 8px -12px 63px -16px rgba(207,208,209,0.95);
+ 	margin: 5%;
+ 	padding: 0;
+ 	font-size: 17px;
+ 	background-color: #CEE1E2;
+ 	box-sizing: border-box;
+
+	}
+	h1{
+		font-size: 4rem;
+		font-family: monospace;
+		padding: 10%;
+		color: #616161;
+		background: #bababa;
+		text-shadow: #e0e0e0 1px 1px 0;
+		text-align: center;
+	}
+	nav ul{
+		list-style-type: none;
+		background-color: #848C8E;
+		padding: 1%;
+
+	}
+	ul li{
+		display: inline;
+		padding: 1%;
+		
+	}
+	ul li a{
+		color:white;
+		text-transform: uppercase;
+		text-decoration-line: none;
+	}
+	ul li a:hover{
+		-webkit-box-shadow: 2px 4px 34px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 2px 4px 34px 0px rgba(0,0,0,0.75);
+		box-shadow: 2px 4px 34px 0px rgba(0,0,0,0.75);
+		padding: 0.5rem;
+
+	}
+	.container{
+		display: grid;
+		margin: 5%;
+		grid-template-columns: 3fr 5fr 3fr;
+		grid-gap: 2%;
+       grid-template-rows: auto auto auto auto;
+       grid-template-areas: "header header header"
+                             "menu menu menu"
+                             "conteudo conteudo lado"
+                             "footer footer footer";
+	}
+	.header{ grid-area:header;
+	}
+
+	.menu{grid-area:menu;
+	}
+	.conteudo{grid-area:conteudo;
+		text-align: justify;
+		margin: 2%;
+	}
+	.conteudo p{
+		margin: 2% 10% 2% 0%;
+
+	}
+	.lado{
+		margin-top: 0%;
+		grid-area:lado;
+		text-align: justify;
+		
+	}
+
+	.lado img{
+		
+		max-width: 320px;
+		max-height: 320px;
+		margin-left: 10%;
+	}
+	.lado p{
+		margin: 5% 10% 5% 5%;
+	}
+	.footer{
+		display: inline-flex;
+		grid-area:footer;
+		margin-top: 5%;
+		margin-bottom: 0;
+		text-align: justify;
+		margin-top: 20%;
+		padding-bottom: 5%;
+		-webkit-box-shadow: 7px 0px 24px 8px rgba(0,0,0,0.68);
+		-moz-box-shadow: 7px 0px 24px 8px rgba(0,0,0,0.68);
+		box-shadow: 7px 0px 24px 8px rgba(0,0,0,0.68);
+		border-radius: 15% 15% 0% 0%;
+	}
+	.footer>img{
+		
+		height: 150px;
+		width:150px;
+		border-radius: 50%;
+		margin-top: 3%;
+		margin-left: 5%;
+	}
+	.footer p{
+		margin-top: 5%;
+		margin-left:5%;
+		margin-right: 10%;
+		text-align: justify;
+
+	}
+	.footer .icones{
+	display: inline-flex;
+	margin-right: 20%;
+	margin-top: 5%;
+ 	font-size: 3rem;
+ 	
+ }
+.fa-facebook-official{
+	color:blue;
+	margin-right: 1rem;
+}
+.fa-youtube{
+	color:red;
+}
+
+}
+
+
+@media screen and (max-width:601px){
+ html,body{
+ 	-webkit-box-shadow: 8px -12px 63px -16px rgba(207,208,209,0.95);
+	-moz-box-shadow: 8px -12px 63px -16px rgba(207,208,209,0.95);
+	box-shadow: 8px -12px 63px -16px rgba(207,208,209,0.95);
+ 	margin: 0;
+ 	padding: 0;
+ 	font-size: 17px;
+ 	background-color: #DED9E2;
+
+ }
+ nav>ul{
+ 	margin: 0;
+ 	text-align: center;
+ 	list-style-type: none;
+ 	background-color: #848C8E;
+ }
+ ul>li>a{
+ 	color:white;
+ 	font-size: 1rem;
+ 	text-transform: uppercase;
+ }
+ li a:hover{
+ 	color:black;
+
+ }
+ .header h1{
+ 	margin: 0;
+ 	text-align: center;
+ 	background-color:#435058;
+ 	color:white;
+ 	font-size: 3rem;
+ 	font-family: monospace;
+ }
+ .container{
+ 	display: flex;
+ 	flex-direction: column;
+ 	margin-left: 3%;
+ 	margin: 5%;
+ 	background-color: #F1F2EE;
+ 	text-align: center;
+ }
+ 
+ .conteudo p{
+ 	text-align: justify;
+ 	margin: 7%;
+ }
+ .conteudo img{
+ 	margin-top: 5%;
+ 	height: auto;
+ 	width: 90%;
+
+ }
+ .lado p{
+ 	text-align: justify;
+ 	margin: 7%;
+ }
+ .lado img{
+ 	height: auto;
+ 	width: 60%;
+ }
+ .footer{
+ 	margin-top: 2%;
+ 	background-color: #435058;
+ }
+ .footer p{
+ 	text-align: justify;
+ 	margin: 7%;
+ }
+ .footer img{
+ 	margin-top: 2%;
+ 	height: auto;
+ 	width: 90%;
+ 	border-radius: 50%;
+ }
+ .footer .icones{
+ 	-webkit-box-shadow: 2px 4px 34px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 4px 34px 0px rgba(0,0,0,0.75);
+box-shadow: 2px 4px 34px 0px rgba(0,0,0,0.75);
+ 	font-size: 3rem;
+ 	background-color: white;
+ }
+.fa-facebook-official{
+	color:blue;
+}
+.fa-youtube{
+	color:red;
+}
+
+}
